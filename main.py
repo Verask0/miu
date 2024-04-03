@@ -1,5 +1,6 @@
 class Table:
-  pass
+  def create_table(self, table_name, columns):
+    return "table"
 
 
 
