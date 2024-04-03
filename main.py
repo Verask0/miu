@@ -1,1 +1,5 @@
-print (2+2)
+class Table:
+  pass
+
+
+
