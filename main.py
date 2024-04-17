@@ -5,7 +5,9 @@ class Table:
   def add_row(self, row):
       self.data.append(row)
 
- 
+  def load_from_dicts(self, *dicts):
+    for d in dicts:
+        self.add_row(d)
 
   def load_from_file(self, filename):
       with open(filename, 'r') as file:
