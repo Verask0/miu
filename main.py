@@ -37,7 +37,7 @@ class Table:
       return table_str
 
 # Пример использования:
-fLine = {"a": 2, "b": 5}
+fLine = {"a": 2, "b": 4}
 sLine = {"a": 3, "b": 9}
 
 table = Table()
